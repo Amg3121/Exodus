@@ -1,0 +1,1013 @@
+
+/* 
+1.- IMPORT GOOGLE FONTS 
+2.- STYLES MENU 
+3.- BASICS RESET
+4.- CUSTOM PROPIETIES
+5.- GLOBAL STYLES
+6.- REUSABLES STYLES
+7.- BREAK POINTS
+*/
+/* IMPORT GOOGLE FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800;900&display=swap');
+/* BASICS RESET */
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* CUSTOM PROPIETIES */
+:root{
+    
+    /* ... Template forest ... */ 
+    /* color textos forest */ 
+    --forest:#7fc775;
+    --forest-dark:#009b71;
+    /* color fondo forest*/ 
+    --forest-back-ligth: #7fc775;
+    --forest-dark-back: #009b71;
+    
+    /* template blue*/
+    --desert:#91533a;
+    --desert-dark:#44211b;
+    /* color fondo desert*/ 
+    --desert-back-ligth: #91533a;
+    --desert-dark-back: #44211b;
+    /* template blue*/
+    --jungle:#ffa938;
+    --jungle-dark:#e36528;
+    /* color fondo jungle*/ 
+    --jungle-back-ligth: #ffa938;
+    --jungle-dark-back: #e36528;
+}
+/* GLOBAL STYLES */
+body{
+    font-family: 'Nunito', sans-serif;
+    padding-top: 150px;
+}
+a{
+    text-decoration: none;
+    color:inherit;
+}
+ul{
+    list-style: none;
+}
+
+/* STYLES MENU */
+.header{
+   /* background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;*/
+}
+
+/* STYLES MENU */
+.navbar{
+    background-color: #ffffff;
+}
+.navbar-light .navbar-toggler {
+    color: #ffffff !important;
+    border-color: #ffffff !important;
+}
+
+nav.sub {
+	border-bottom: 1px solid #ebebeb;
+	padding: 10px 0;
+}
+nav.main .nav-logo {
+	max-width: 200px;
+	width: 100%;
+}
+nav.main ul {
+	padding-left: 0;
+	list-style-type: none;
+}
+nav.main .megamenu {
+	padding: 20px 20px;
+	position: absolute;
+	top: auto;
+	left: 0;
+	right: 0;
+	max-width: 1500px;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.megamenu{
+    padding: 10px 40px 30px;
+    margin: 0.125rem 1rem 0;
+    border-radius: .50rem;
+}
+nav.main .midmenu {
+	position: absolute;
+	padding: 20px 20px;
+	float: left;
+	top: auto;
+	left: auto;
+	right: auto;
+	max-width: 650px;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.dropdown-menu.megamenu.midmenu.show {
+    right: 0;
+}
+.dropdown-menu.show {
+    right: 0;
+}
+.nav_item{
+    transition: .25s;
+    /*margin-left: 30px;*/
+}
+.nav_link{
+    
+    color: #7f7f7f !important;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+    text-transform: capitalize;
+    font-size: 1.25rem;
+    padding-right: .75rem !important;
+    padding-left: .75rem !important;
+    padding: .5rem 1rem;
+    transition: all .2s ease-in-out;
+}
+.nav_link_sub{
+    padding: 13px 10px 13px 0;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'Nunito', sans-serif;
+    display: block;
+    border-bottom: 1px solid #ededed;
+    transition: 25ms;
+    text-transform: uppercase;
+}
+/*SECTIONS*/
+.title-h1{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+    color: #2d313a;
+    font-size: 72px;
+    margin-bottom: 40px;
+}
+.title-h1-destinos{
+    font-family: 'Lato', sans-serif;
+    font-weight: 800;
+    color: #2d313a;
+    font-size: 72px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.title-h2{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #555a64;
+    line-height: 1.5;
+    margin-bottom: 40px;
+}
+.back-banner{
+    background-image: url('../img/back-los-mas-vendidos.png');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.space-banner{
+    padding-top: 250px; 
+    padding-bottom: 250px;
+}
+.confiarnos{
+    padding: 7.5rem 0;
+}
+.items-confiarnos{
+    margin-top: 4.6875rem;
+}
+.link-confiranos{
+    background-color: #ffffff;
+    color: #555a64;
+    font-size: 20px;
+    border-radius: 5px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    padding: 10px 15px;
+    display: inline-block;
+    width: 100%;
+}
+.span-confiarnos{
+    display: inline-block;
+}
+/* revisar styles externos*/
+section{
+    position: relative;
+}
+.o-hidden {
+    overflow: hidden;
+}
+.text-white {
+    color: #fff!important;
+}
+.pb-0, .py-0 {
+    padding-bottom: 0!important;
+}
+.bg-primary-3 {
+    background-color:var(--forest-back-ligth);
+}
+.right {
+    left: auto;
+    right: 0;
+}
+.top {
+    top: 0;
+    bottom: auto;
+}
+.h-100 {
+    height: 100%!important;
+}
+.w-50 {
+    width: 50%!important;
+}
+.position-absolute {
+    position: absolute!important;
+}
+.blob.right {
+    right: -5vw;
+}
+
+.blob.top {
+    top: -5vw;
+}
+.blob.blob-2 {
+    -webkit-mask-image: url('../img/blob-2.svg');
+    mask-image: url('../img/blob-2.svg');
+}
+.blob {
+    position: absolute;
+    z-index: 0;
+    transform: scale(3);
+    -webkit-mask-image: url('../img/blob-1.svg');
+    mask-image: url('../img/blob-1.svg');
+    -webkit-mask-size: 100% 100%;
+    mask-size: 100% 100%;
+}
+.right {
+    left: auto;
+    right: 0;
+}
+.top {
+    top: 0;
+    bottom: auto;
+}
+.opacity-50 {
+    opacity: .5;
+}
+.bg-gradient {
+    background: linear-gradient(to right,#009b71,#009b71)!important;
+}
+.h-100 {
+    height: 100%!important;
+}
+.w-100 {
+    width: 100%!important;
+}
+.divider.divider-bottom {
+    top: 1px;
+}
+
+@media (min-width: 992px){
+section>.divider-bottom :
+    margin-top: calc(7.5rem - 5vw);
+}
+
+
+.highlight-selected {
+    position: relative;
+    z-index: 1;
+}
+.highlight-selected .carousel-cell:not(.is-selected) {
+    transform: scale(.9);
+    opacity: .25;
+}
+
+.flickity-prev-next-button {
+    top: 50%;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    transform: translateY(-50%);
+}
+.flickity-button {
+    position: absolute;
+    
+    
+}
+.flickity-prev-next-button {
+    padding: 0;
+    border: 2px solid #fff;
+    width: 3rem;
+    height: 3rem;
+    transition: all .2s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.avatar {
+    border-radius: 50%;
+    width: 10.5rem;
+    height: 10.5rem;
+    flex-shrink: 0;
+}
+/* revisar styles externos arriba */
+
+/* SECCION MAS VENDIDOS */
+.mas-vendidos{
+    padding: 7.5rem 0;
+}
+/* SECCION SLIDE */
+.carrusel{
+    
+        padding-bottom: 7.5rem ;
+}
+.info-slide {
+    position: absolute;
+    bottom: 68px;
+    right: 150px;
+    text-align: right;
+    font-family: 'Nunito', sans-serif;
+    color: #fff;
+}
+.slide-title{
+    color: #fff;
+    font-weight: 800;
+    font-family: 'Nunito', sans-serif;
+    text-transform: uppercase;
+    font-size: 68px;
+    line-height: 1;
+}
+.slide-desde {
+    color: #fff;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 40px;
+    line-height: 1;
+    margin-bottom: 10px;
+}
+.slide-days {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 19px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+}
+.slide .owl-prev {
+    margin: 0 0 0 .7em;
+    left: 60px;
+    display: inline-block;
+    position: absolute;
+    top: 40%;
+    font-size: 2.7em !important;
+    color: #ffffff !important;
+    outline: none !important;
+    background: transparent !important;
+}
+.slide .owl-next {
+    margin: 0 .7em 0 0;
+    right: 60px;
+    display: inline-block;
+    position: absolute;
+    top: 40%;
+    font-size: 2.7em !important;
+    color: #ffffff !important;
+    outline: none !important;
+    background: transparent !important;
+}
+/* SECCION MAS FAVORITOS */
+.los-favoritos{
+    padding-bottom: 7.5rem;
+}
+/* SECCION PROGRAMADAS */
+.salidas-programadas{
+    padding: 7.5rem 0;
+}
+.container-iconos-programadas{
+    margin-bottom: 2.5rem;
+}
+/* SECCION MEGA OFERTAS */
+.mega-ofertas{
+    padding-top: 7.5rem;
+    
+}
+.mega-ofertas-back{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.temporada{
+    margin-bottom: 30rem;
+}
+.temporada .owl-prev {
+    margin: 0 0 0 .7em;
+    left: -30px;
+    display: inline-block;
+    position: absolute;
+    top: 30%;
+    font-size: 2.7em !important;
+    color: #ffffff !important;
+    outline: none !important;
+    background: transparent !important;
+}
+.temporada .owl-next {
+    margin: 0 .7em 0 0;
+    right: -30px;
+    display: inline-block;
+    position: absolute;
+    top: 30%;
+    font-size: 2.7em !important;
+    color: #ffffff !important;
+    outline: none !important;
+    background: transparent !important;
+}
+/* SECCION INICIA TU VIAJE */
+.tu-viaje-inicia{
+    padding: 7.5rem 0;
+}
+.title-megatv{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+    color: #2d313a;
+    font-size: 72px;
+    margin-bottom: 40px;
+}
+.text-megatv{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #555a64;
+    line-height: 1.5;
+}
+/* SECCION QUIENES SOMOS */
+.quienes-somos{
+    padding: 7.5rem 0;
+    background-color: #efefef;
+}
+.container-somos{
+    width: 80%;
+    margin: auto;
+    position: relative;
+}
+.somos a:hover{
+    text-decoration: none;
+}
+.somos .item{
+    background-color: #fff;
+}
+.p-l-somos{
+    padding-left: 80px;
+}
+.somos-title{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+    font-size: 24px;
+    color: #555a64;
+    margin-top: 90px;
+    margin-bottom: 36px;
+}
+.somos-text{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #555a64;
+    display: inline-block;
+    width: 80%;
+    margin-bottom: 46px;
+}
+.somos .owl-prev {
+    margin: 0 0 0 .7em;
+    left: -30px;
+    display: inline-block;
+    position: absolute;
+    top: 40%;
+    font-size: 2.7em !important;
+    color: #ffffff !important;
+    outline: none !important;
+    background: transparent !important;
+}
+.somos .owl-next {
+    margin: 0 .7em 0 0;
+    right: -30px;
+    display: inline-block;
+    position: absolute;
+    top: 40%;
+    font-size: 2.7em !important;
+    color: #ffffff !important;
+    outline: none !important;
+    background: transparent !important;
+}
+/* SECCION CONTACTO */
+.contacto{
+    padding: 7.5rem 0;
+}
+.container-count{
+    margin-bottom: 4rem;
+}
+.contacto-count{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+    font-size: 56px;
+}
+.contacto-count-text{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+.label-contacto{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+.input-contacto{
+    height: 58px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    outline: none !important;
+    box-shadow: none !important;
+    font-size: 20px;
+}
+.input-contacto:focus{
+    box-shadow: none !important;
+    border: 1px solid #ced4da;
+}
+
+/* SECCION MAPA */
+.mapa{
+    
+}
+
+.padding-mapa{
+    padding: 0;
+}
+.mapa-title{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+    font-size: 24px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.mapa-text{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #fff;
+    margin: 0;
+}
+.mapa .divider.divider-side:first-child {
+    left: -1px;
+}
+.mapa .divider.divider-side {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    height: 100%;
+    width: 5vw;
+    max-width: 72px;
+    -webkit-mask-image: url("data:image/svg+xml;utf8,%3csvg viewBox='0 0 100 100' width='100%' height='100%' xmlns='http://www.w3.org/2000/svg' preserveAspectRatio='none'%3e%3cpath d='M0,0 C16.6666667,66 33.3333333,99 50,99 C66.6666667,99 83.3333333,66 100,0 L100,100 L0,100 L0,0 Z' fill='%23fff' fill-rule='evenodd' transform='translate(50.000000, 50.000000) rotate(-90.000000) translate(-50.000000, -50.000000)' /%3e%3c/svg%3e");
+    mask-image: url("data:image/svg+xml;utf8,%3csvg viewBox='0 0 100 100' width='100%' height='100%' xmlns='http://www.w3.org/2000/svg' preserveAspectRatio='none'%3e%3cpath d='M0,0 C16.6666667,66 33.3333333,99 50,99 C66.6666667,99 83.3333333,66 100,0 L100,100 L0,100 L0,0 Z' fill='%23fff' fill-rule='evenodd' transform='translate(50.000000, 50.000000) rotate(-90.000000) translate(-50.000000, -50.000000)' /%3e%3c/svg%3e");
+    -webkit-mask-size: 100% 101%;
+    mask-size: 100% 101%;
+}
+.mapa .divider {
+    width: 100%;
+    position: relative;
+    height: 5vw;
+    pointer-events: none;
+    -webkit-mask-image: url("data:image/svg+xml;utf8,%3csvg viewBox='0 0 100 100' width='100%' height='100%' xmlns='http://www.w3.org/2000/svg' preserveAspectRatio='none'%3e%3cpath d='M0,0 C16.6666667,66 33.3333333,98 50,98 C66.6666667,98 83.3333333,66 100,0 L100,100 L0,100 L0,0 Z' fill='%23fff'/%3e%3c/svg%3e");
+    mask-image: url("data:image/svg+xml;utf8,%3csvg viewBox='0 0 100 100' width='100%' height='100%' xmlns='http://www.w3.org/2000/svg' preserveAspectRatio='none'%3e%3cpath d='M0,0 C16.6666667,66 33.3333333,98 50,98 C66.6666667,98 83.3333333,66 100,0 L100,100 L0,100 L0,0 Z' fill='%23fff'/%3e%3c/svg%3e");
+    -webkit-mask-size: 100% 101%;
+    mask-size: 100% 101%;
+    margin-top: 0 !important;
+}
+.mapa .transform-flip-y {
+    transform: scaleX(-1);
+}
+.mapa .d-lg-block {
+    display: block!important;
+}
+/* SECCION MAPA */
+.meca{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+    margin: 0;
+    padding: 1.8rem 0;
+}
+/* REUTILIZABLES SLIDES */
+.item-slide-content{
+    position: relative;
+}
+.item-slide-info{
+    position: absolute;
+    display: inline-block;
+    width: 100%;
+    color: #fff;
+    bottom: 0;
+    font-family: 'Nunito', sans-serif;
+}
+.item-slide-days{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    font-weight: 700;
+    font-size: 12px;
+    margin-top: 10px;
+}
+.item-slide-price{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    font-size: 60px;
+}
+.item-slide-since{
+    font-size: 14px;
+    vertical-align: middle
+}
+.item-slide-current{
+    display: inline-block;
+    width: 89%;
+    text-align: right;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.nuestros-clientes{
+    padding: 7.5rem 0;
+}
+.container-clientes{
+    z-index: 1;
+    position:relative;
+}
+
+/* REUSABLES STYLES */
+.container-template{
+    width: 100%;
+    max-width: 1400px;
+    padding: 0 1.5rem;
+    margin: 0 auto;
+}
+.container-template-slide{
+    width: 100%;
+    max-width: 1000px;
+    padding: 0 1.5rem;
+    margin: 0 auto;
+}
+.title-section-white{
+    font-family: 'Nunito', sans-serif;
+    font-size: 3.5rem;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: -.02em;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+.title-section-black{
+    font-family: 'Nunito', sans-serif;
+    font-size: 3.5rem;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: -.02em;
+    color: #555a64;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+.subtitle-section-white{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 3.7rem;
+}
+.subtitle-section-black{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #555a64;
+    text-align: center;
+    margin-bottom: 3.7rem;
+}
+.btn-menu{
+    color:#fff !important;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    margin-left: 1.5rem !important;
+    display: inline-block !important;
+    font-weight: 700;
+    text-align: center;
+    vertical-align: middle;
+    border: 2px solid transparent;
+    padding: .625rem 1.5rem !important;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 100px;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    
+}
+
+.btn-section-one{
+    transition: background 0.3s 0.01s, 
+    border-color 0.3s 0.01s;
+    border-color: transparent;
+    border: none;
+    display: inline-block;
+    max-width: 100%;
+    min-width: 330px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+    border-radius: 35px;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    transition: .25s all ease;
+    font-size: 16px;
+    padding: 12px 38px;
+    text-decoration: none !important;
+    color: #ffffff !important;
+}
+
+.btn_template{
+    transition: background 0.3s 0.01s, 
+    border-color 0.3s 0.01s;
+    border-color: transparent;
+    border: none;
+    display: inline-block;
+    max-width: 100%;
+    min-width: 210px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+    border-radius: 35px;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    transition: .25s all ease;
+    font-size: 16px;
+    padding: 12px 38px;
+    text-decoration: none !important;
+    color: #ffffff !important;
+}
+
+.button-slide{
+    transition: background 0.3s 0.01s, border-color 0.3s 0.01s;
+    border-color:transparent;
+    border: none;
+    display: inline-block;
+    max-width: 100%;
+    min-width: 210px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    border-radius: 35px;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    transition: .25s all ease;
+    font-size: 16px;
+    padding: 17px 38px;
+    text-decoration: none !important;
+    color: #ffffff !important;
+}
+
+.btn-megatv{
+    transition: background 0.3s 0.01s, 
+    border-color 0.3s 0.01s;
+    border-color: transparent;
+    border: none;
+    display: inline-block;
+    max-width: 100%;
+    min-width: 300px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+    border-radius: 35px;
+    text-align: left;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    transition: .25s all ease;
+    font-size: 20px;
+    padding: 25px 38px 25px 60px;
+    text-decoration: none !important;
+    color: #ffffff !important;
+    margin-bottom: 20px;
+}
+
+.btn-contacto{
+    transition: background 0.3s 0.01s, 
+    border-color 0.3s 0.01s;
+    border-color: transparent;
+    border: none;
+    display: inline-block;
+    max-width: 100%;
+    min-width: 100%;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+    border-radius: 35px;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    transition: .25s all ease;
+    font-size: 20px;
+    padding: 25px 38px;
+    text-decoration: none !important;
+    color: #ffffff !important;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* revisar styles externos*/
+.divider {
+    width: 100%;
+    position: relative;
+    height: 5vw;
+    pointer-events: none;
+    -webkit-mask-image: url("data:image/svg+xml;utf8,%3csvg viewBox='0 0 100 100' width='100%' height='100%' xmlns='http://www.w3.org/2000/svg' preserveAspectRatio='none'%3e%3cpath d='M0,0 C16.6666667,66 33.3333333,98 50,98 C66.6666667,98 83.3333333,66 100,0 L100,100 L0,100 L0,0 Z' fill='%23fff'/%3e%3c/svg%3e");
+    mask-image: url("data:image/svg+xml;utf8,%3csvg viewBox='0 0 100 100' width='100%' height='100%' xmlns='http://www.w3.org/2000/svg' preserveAspectRatio='none'%3e%3cpath d='M0,0 C16.6666667,66 33.3333333,98 50,98 C66.6666667,98 83.3333333,66 100,0 L100,100 L0,100 L0,0 Z' fill='%23fff'/%3e%3c/svg%3e");
+    -webkit-mask-size: 100% 101%;
+    mask-size: 100% 101%;
+    background: #fff;
+    top: 1px;
+    margin-top: 3rem!important;
+    
+}
+.btn-back-forest{
+    background-color: var(--forest-back-ligth);
+}
+.back-forest-dark{
+    background-color: var(--forest-dark-back);
+}
+.back-forest-ligth{
+    background-color: var(--forest-back-ligth);
+}
+.back-forest-temporada{
+    background-image: url('../img/back-verano2020.png');
+}
+.item-border-white{
+    border: 1px solid #fff;
+}
+.back-respuesta-forest{
+    background-color: #eaedf2;
+}
+.color-forest{
+    color: var(--forest-dark-back);
+}
+.bg-gradient-forest{
+    background: linear-gradient(to right,var(--forest-dark-back),var(--forest-dark-back))!important;
+}
+.btn-back-forest:hover{
+    background-color: var(--forest-dark-back);
+    text-decoration: none;
+}
+.flickity-viewport .btn-back-forest{
+    background-color: var(--desert-dark-back);
+}
+.btn-back-desert{
+    background-color: var(--desert-back-ligth);
+}
+.back-desert-dark{
+    background-color: var(--desert-dark-back);
+}
+.back-desert-ligth{
+    background-color: var(--desert-back-ligth);
+}
+.back-desert-temporada{
+    background-image: url('../img/back-verano2020.png');
+}
+.item-border-white{
+    border: 1px solid #fff;
+}
+.back-respuesta-desert{
+    background-color: #eaedf2;
+}
+.color-desert{
+    color: var(--desert-dark-back);
+}
+.bg-gradient-desert{
+    background: linear-gradient(to right,var(--desert-dark-back),var(--desert-dark-back))!important;
+}
+.btn-back-desert:hover{
+    background-color: var(--desert-dark-back);
+    text-decoration: none;
+}
+
+.flickity-viewport .btn-back-desert{
+    background-color: var(--desert-dark-back);
+}
+/*----*/
+.btn-back-jungle{
+    background-color: var(--jungle-back-ligth);
+}
+.back-jungle-dark{
+    background-color: var(--jungle-dark-back);
+}
+.back-jungle-ligth{
+    background-color: var(--jungle-back-ligth);
+}
+.back-jungle-temporada{
+    background-image: url('../img/back-verano2020.png');
+}
+.item-border-white{
+    border: 1px solid #fff;
+}
+.back-respuesta-jungle{
+    background-color: #eaedf2;
+}
+.color-jungle{
+    color: var(--jungle-dark-back);
+}
+.bg-gradient-jungle{
+    background: linear-gradient(to right,var(--jungle-dark-back),var(--jungle-dark-back))!important;
+}
+.btn-back-jungle:hover{
+    background-color: var(--jungle-dark-back);
+    text-decoration: none;
+}
+
+.flickity-viewport .btn-back-jungle{
+    background-color: var(--jungle-dark-back);
+}
+.link-confiranos:hover{
+    
+    text-decoration: none;
+    color: #555a64;
+}
+.slide_movil{
+    display: none !important;
+}
+
+/* BREAK POINTS */
+@media only screen and (max-width: 1100px) {
+ 
+    
+}
+
+@media only screen and (max-width: 425px) {
+    .container-somos{
+        width: 95%;
+    }
+    .p-l-somos {
+        padding-left: 25px;
+    }
+    .title-section-white{
+        font-size: 2.8rem;
+    }
+    .btn-megatv{
+        min-width: 250px;
+        font-size: 16px;
+    }
+    .btn-section-one{
+        min-width: 270px;
+    }
+    .info-slide{
+        bottom: 8px;
+        right: 50px;
+    }
+
+    .slide-title{
+        font-size: 25px;
+        margin-bottom: 7px;
+    }
+    .slide-desde{
+        font-size: 17px;
+        margin-bottom: 7px;
+    }
+    .slide-days{
+        font-size:16px;
+        margin-bottom: 7px;
+    }
+    .button-slide{
+        font-size: 12px;
+        padding: 10px 17px;
+    }
+    .somos-text{
+        font-size: 20px;
+    }
+    
+}
+
+@media only screen and (max-width: 650px) {
+    .slide_movil{
+        display: block !important;
+    }
+    .slide_desktop{
+        display: none !important;
+    }
+}

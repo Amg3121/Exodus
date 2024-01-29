@@ -1,0 +1,161 @@
+*{
+  scroll-behavior: smooth;
+}
+
+.main__carousel-owl-item{
+  position: relative;
+}
+.main__carousel-owl-item-image{
+  width: 100%;
+}
+.mega__ofertas--item img{
+  width: 100%;
+}
+.mega__ofertas--item{
+  padding: 0px 10px;
+}
+
+.main__carousel-owl{
+  background-color: #e46879  !important;
+}
+
+.main__sections-item{
+  position: relative;
+  padding: 0px 10px;
+}
+
+.slick-slide img{
+  width: 100%;
+}
+.main__sections-mt{
+  padding: 15px 30px;
+}
+.slick-prev{
+  display: none !important;
+}
+.slick-next{
+  display: none !important;
+}
+
+.not-border{
+  border: 0px;
+}
+
+.iframe-detail{
+  border: 0px;
+}
+
+.carrusel__mega--carrusel{
+  background-color: #451316 !important;
+}
+.megatraveler__revista {
+  padding: 40px 35px;
+}
+.megatraveler__button{
+  margin: 5px;
+}
+.footer__iframe{
+  border: 0;
+}
+.info__favoritos{
+  position: absolute;
+  width: 100%;
+  display: inline-block;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  padding: 10px;
+}
+
+.favoritos .slick-slide{
+  padding: 10px;
+  position: relative;
+}
+
+.favoritos .item img{
+  width: 100%;
+}
+
+
+.ofertas .slick-slide{
+  padding: 10px;
+  position: relative;
+}
+
+.ofertas .item img{
+  width: 100%;
+}
+
+
+.videos .slick-slide{
+  padding: 10px;
+  position: relative;
+}
+
+.videos .item img{
+  width: 100%;
+}
+
+.mt{
+  right: 0;
+  left: 0;
+  padding: 12px;
+}
+
+.bloqueos .slick-slide{
+  padding: 10px;
+  position: relative;
+}
+.bloqueos .item img{
+  width: 100%;
+}
+.dias{
+  width: 100%;
+}
+.desde{
+  width: 100%;
+}
+.logo__footer img{
+  max-width: 100%;
+}
+.map{
+  border: 0px;
+}
+.item__carrusel__mega {
+  position: relative;
+}
+.main__carousel-owl-info {
+  position: absolute;
+  display: inline-block;
+  color: #fff;
+  bottom: 11px;
+  right: 25px;
+}
+.main__carousel-owl-price {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    font-size: 110px;
+    
+}
+.main__carousel-owl-since {
+  font-size: 22px;
+  vertical-align: middle;
+  font-family: Arimo,sans-serif;
+}
+.main__carousel-owl-current {
+  display: inline-block;
+  width: 89%;
+  text-align: right;
+  font-size: 18px;
+  margin-bottom: 10px;
+  font-family: Arimo,sans-serif;
+}
+
+@media only screen and (max-width: 665px) {
+  .main__carousel-owl-price {
+    font-size: 50px;
+    
+}
+  
+}

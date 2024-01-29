@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin:0;
+            padding: 0;
+
+        }
+        .header{
+            height: 100px;
+            background: red;
+            padding: 0 20px;
+            color: #000;
+        }
+        .logo{
+            line-height: 100px;
+            float: left;
+            
+        }
+        .menu{
+            float: right;
+            line-height: 100px;
+        }
+        .menu a{
+            color #fff;
+            text-transform: uppercase;
+            text-decoration: none;
+            padding: 0 10px;
+            transition: 0.4s;
+        }
+        .show-menu-btn,.hide-menu-btn{
+            transition: 0.4s;
+            font-size: 30px;
+        }
+        .show-menu-btn{
+            float: right;
+        }
+        #chk{
+            position: absolute;
+            visibility: hidden;
+            z-index: -1111;
+        }
+        .menu{
+            position: fixed;
+            width: 100%;
+            height: 100vh;
+            background: #333;
+            right: -100%;
+            top: 0;
+            text-align: center;
+            transition: 0.7s;
+        }
+        #chk:checked ~ .menu{
+            right: 0;
+        }
+        .smenu{
+            background: red;
+            overflow: hidden;
+            transition: max-height 0.3s;
+            max-height: 0 !important;
+
+        }
+        .smenu a{
+           display: block;
+           padding: 16px 26px;
+           color: white;
+           margin: 4px 0;
+           position: relative; 
+        }
+        .item:target .smenu{ 
+            max-height: 10em;
+        }
+        
+
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h2>david</h2>
+        <input type="checkbox" id="chk">
+        <label for="chk" class="show-menu-btn">
+            abrir
+        </label>
+        <ul class="menu">
+            <li class="item" id="profile">
+                <a href="#profile">home</a>
+                <div class="smenu">
+                    <a href="">submenu</a>
+                    <a href="">submenu</a>
+                </div>
+            </li>
+            <li><a href="">home</a></li>
+            <label for="chk" class="hide-menu-btn">
+                cerrar
+            </label>
+        </ul>
+    </div>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui, saepe. Dignissimos dolorum sed veritatis perspiciatis deserunt recusandae, ab officiis provident minus quasi nemo molestias molestiae eius veniam fugiat sunt optio.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, nostrum sapiente aut voluptatem omnis, aperiam quod doloribus praesentium commodi est, dolor corporis aspernatur voluptas veritatis at nihil! Laborum, commodi illum!</p>
+</body>
+</html>

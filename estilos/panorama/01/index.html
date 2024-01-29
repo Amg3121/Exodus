@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Prompt:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
+    <script src="https://kit.fontawesome.com/348253d22e.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+
+    <header>
+        <div class="main__menu container">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light nav__template padding__rem">
+            <a class="navbar-brand menu__brand" href="#"><img src="https://mtmedia.b-cdn.net/brand/logos/logo-mega-travel-azul.svg" alt="" class="img-logo"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="mr-auto"></div>
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link link__menu" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                
+                <li class="nav-item dropdown">
+                  <a class="nav-link link__menu dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Destinos
+                  </a>
+                  <div class="dropdown-menu dropdown-multicol" aria-labelledby="navbarDropdown">
+                      <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-6">
+                    <a class="dropdown-item link__sub" href="#">viajes a europa</a>
+                    <a class="dropdown-item link__sub" href="#">canadá</a>
+                    <a class="dropdown-item link__sub" href="#">estados unidos</a>
+                    <a class="dropdown-item link__sub" href="#">méxico</a>
+                    <a class="dropdown-item link__sub" href="#">sudamérica</a>
+                    <a class="dropdown-item link__sub" href="#">centroamérica</a>
+                    <a class="dropdown-item link__sub" href="#">pacífico</a>
+                    <a class="dropdown-item link__sub" href="#">medio oriente</a>
+                    <a class="dropdown-item link__sub" href="#">asia</a>
+                </div>
+                <div class="col-md-6">
+                    <a class="dropdown-item link__sub" href="#">africa</a>
+                    <a class="dropdown-item link__sub" href="#">eventos</a>
+                    <a class="dropdown-item link__sub" href="#">#juvi</a>
+                    <a class="dropdown-item link__sub" href="#">grupos y fits</a>
+                    <a class="dropdown-item link__sub" href="#">luna de miel</a>
+                    <a class="dropdown-item link__sub" href="#">quinceañeras</a>
+                    <a class="dropdown-item link__sub" href="#">desde cancún</a>
+                    <a class="dropdown-item link__sub" href="#">viajes verano 2020</a>
+                    <a class="dropdown-item link__sub" href="#">viajes invierno 2020</a>
+                </div>
+                </div>
+            </div>
+                    
+                  </div>
+                </li>
+                <!--<li class="nav-item dropdown">
+                    <a class="nav-link link__menu dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Ofertas y Promociones
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>-->
+                <li class="nav-item">
+                    <a class="nav-link link__menu" href="#">Ofertas y Promociones</a>
+                </li>
+                <li class="nav-item">
+                    <span class="navbar-text link__menu">
+                        T.C. 20.53 MXN
+                    </span>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link link__menu" href="#">Contacto</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link link__menu" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-search"></i>
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <form class="px-4 py-3">
+                            <div class="form-group">
+                              
+                              <input type="email" class="form-control" id="" placeholder="Buscar">
+                            </div>
+                            <button type="submit" class="btn btn-primary">Buscar</button>
+                          </form>
+                    </div>
+                </li>
+              </ul>
+              
+            </div>
+          </nav>
+        </div>
+        <div class="header__container--back">
+            <div class="container-fluid container__text--title padding__rem">
+           <div class="title__agency"> agencia de viajes</div>
+           <h1 class="title__h1"> travel world </h1>
+           <p class="text__title"> en pachuca hidalgo</p>
+           <p class="text__phone"> 55 5255 6533</p>
+           <a href="" class="link__title"> Contacto </a>
+            </div>
+        </div>
+    </header>
+
+    <section class="container-fluid mega__ofertas container__padding">
+        <h3 class="text-center h3__general">mega ofertas</h3>
+        <h4 class="text-center h4__general">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4>
+        <div class="line"></div>
+        <div class="mega__ofertas--carrusel owl-carousel owl-theme padding__rem">
+            <div class="item mega__ofertas--item"> 
+                <a href="">
+                    <img src="https://one.cdnmega.com/images/home/megaofertas/5.jpg" alt="">
+                    
+                </a>
+                <div class="mega__ofertas--info">
+                    <p class="mega__ofertas--desde">Desde 2,999 <span class="mega__ofertas--span">MXN</span></p>
+                    <p class="mega__ofertas--dias"> 04 dias / 03 noches</p>
+                </div>    
+            </div>
+            <div class="item mega__ofertas--item"> 
+                <a href="">
+                    <img src="https://one.cdnmega.com/images/home/megaofertas/1.jpg" alt="">
+                    
+                </a>
+                <div class="mega__ofertas--info">
+                    <p class="mega__ofertas--desde">Desde 2,999 <span class="mega__ofertas--span">MXN</span></p>
+                    <p class="mega__ofertas--dias"> 04 dias / 03 noches</p>
+                </div>    
+            </div>
+            <div class="item mega__ofertas--item"> 
+                <a href="">
+                    <img src="https://one.cdnmega.com/images/home/megaofertas/2.jpg" alt="">
+                    
+                </a>
+                <div class="mega__ofertas--info">
+                    <p class="mega__ofertas--desde">Desde 2,999 <span class="mega__ofertas--span">MXN</span></p>
+                    <p class="mega__ofertas--dias"> 04 dias / 03 noches</p>
+                </div>    
+            </div>
+            <div class="item mega__ofertas--item"> 
+                <a href="">
+                    <img src="https://one.cdnmega.com/images/home/megaofertas/3.jpg" alt="">
+                    
+                </a>
+                <div class="mega__ofertas--info">
+                    <p class="mega__ofertas--desde">Desde 2,999 <span class="mega__ofertas--span">MXN</span></p>
+                    <p class="mega__ofertas--dias"> 04 dias / 03 noches</p>
+                </div>    
+            </div>
+            <div class="item mega__ofertas--item"> 
+                <a href="">
+                    <img src="https://one.cdnmega.com/images/home/megaofertas/4.jpg" alt="">
+                    
+                </a>
+                <div class="mega__ofertas--info">
+                    <p class="mega__ofertas--desde">Desde 2,999 <span class="mega__ofertas--span">MXN</span></p>
+                    <p class="mega__ofertas--dias"> 04 dias / 03 noches</p>
+                </div>    
+            </div>
+            <div class="item mega__ofertas--item"> 
+                <a href="">
+                    <img src="https://one.cdnmega.com/images/home/megaofertas/6.jpg" alt="">
+                    
+                </a>
+                <div class="mega__ofertas--info">
+                    <p class="mega__ofertas--desde">Desde 2,999 <span class="mega__ofertas--span">MXN</span></p>
+                    <p class="mega__ofertas--dias"> 04 dias / 03 noches</p>
+                </div>    
+            </div>
+        </div>
+    </section>
+
+    <section class="container-fluid ofertas__temporada container__padding">
+        <h3 class="text-center h3__general">ofertas de temporada</h3>
+        <h4 class="text-center h4__general">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4>
+        <div class="line"></div>
+        <div class="ofertas__temporada--carrusel owl-carousel owl-theme">
+            <div class="item"> 
+                <img src="https://one.cdnmega.com/images/home/invierno/ronda-iberica-267x160_5efe3b2d098a0.jpg" alt="">
+            </div>
+            <div class="item"> 
+                <img src="https://one.cdnmega.com/images/home/invierno/ronda-iberica-267x160_5efe3b2d098a0.jpg" alt="">
+            </div>
+            <div class="item"> 
+                <img src="https://one.cdnmega.com/images/home/invierno/ronda-iberica-267x160_5efe3b2d098a0.jpg" alt="">
+            </div>
+            <div class="item"> 
+                <img src="https://one.cdnmega.com/images/home/invierno/ronda-iberica-267x160_5efe3b2d098a0.jpg" alt="">
+            </div>
+            <div class="item"> 
+                <img src="https://one.cdnmega.com/images/home/invierno/ronda-iberica-267x160_5efe3b2d098a0.jpg" alt="">
+            </div>
+            <div class="item"> 
+                <img src="https://one.cdnmega.com/images/home/invierno/ronda-iberica-267x160_5efe3b2d098a0.jpg" alt="">
+            </div>
+            <div class="item"> 
+                <img src="https://one.cdnmega.com/images/home/invierno/ronda-iberica-267x160_5efe3b2d098a0.jpg" alt="">
+            </div>
+            <div class="item"> 
+                <img src="https://one.cdnmega.com/images/home/invierno/ronda-iberica-267x160_5efe3b2d098a0.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="container-fluid carrusel__mega container__padding">
+        <div class="carrusel__mega--carrusel owl-carousel owl-theme">
+            <div class="item item__carrusel__mega"> 
+                <a href="">
+                    <img src="https://one.cdnmega.com/images/home/slider-home/canada-express-1700x566_5ef67a633aa93.jpg" alt="">
+                </a>
+                <div class="info__carrusel__mega">
+                    <div class="nombre__carrusel__mega">
+                        ronda iberica
+                    </div>
+                    <div class="desde__carrusel__mega">
+                        Desde 699  <span class="span__carrusel__mega">USD</span>
+                    </div>
+                    <div class="dias__carrusel__mega">
+                        10 dias / 8 noches
+                    </div>
+                    <div class="mas__carrusel__mega">
+                        Más información
+                    </div>
+
+                </div>
+            </div>
+            <div class="item item__carrusel__mega"> 
+                <a href="">
+                    <img src="https://one.cdnmega.com/images/home/slider-home/magia-turca-1700x566_5ef67a331f2b3.jpg" alt="">
+                </a>
+                <div class="info__carrusel__mega">
+                    <div class="nombre__carrusel__mega">
+                        ronda iberica
+                    </div>
+                    <div class="desde__carrusel__mega">
+                        Desde 699  <span class="span__carrusel__mega">USD</span>
+                    </div>
+                    <div class="dias__carrusel__mega">
+                        10 dias / 8 noches
+                    </div>
+                    <div class="mas__carrusel__mega">
+                        Más información
+                    </div>
+
+                </div>
+            </div>
+            <div class="item item__carrusel__mega"> 
+                <a href="">
+                    <img src="https://one.cdnmega.com/images/home/slider-home/cancun-1700x566_5ef67a8820d5a.jpg" alt="">
+                </a>
+                <div class="info__carrusel__mega">
+                    <div class="nombre__carrusel__mega">
+                        ronda iberica
+                    </div>
+                    <div class="desde__carrusel__mega">
+                        Desde 699  <span class="span__carrusel__mega">USD</span>
+                    </div>
+                    <div class="dias__carrusel__mega">
+                        10 dias / 8 noches
+                    </div>
+                    <div class="mas__carrusel__mega">
+                        Más información
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="megatraveler">
+        <div class="container-fluid container__padding">
+        <div class="padding__rem">
+        <div class="row">
+            <div class="col-md-6">
+                
+                <h4 class="megatraveler__h4">mega traveler <div class="megatraveler__vertical"></div></h4>
+                
+                <p class="megatraveler__p">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero at, in suscipit ab pariatur praesentium maiores vero ea accusamus officia possimus molestias, placeat sed ratione eaque ut repudiandae? Laudantium, voluptas!
+                </p>
+                <div class="megatraveler__container--buttons">
+                    <a href="" target="_blank" class="megatraveler__button">ver</a>
+                    <a href="" target="_blank" class="megatraveler__button">descargar</a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="megatraveler__revista">
+                    <img src="img/MT.png" alt="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+    </section>
+
+    <section class="mega__tv">
+        <div class="container-fluid container__padding">
+            <div class="padding__rem">
+            <div class="row">
+                <div class="col-md-6">
+                    <h4 class="mega__tv__h4">mega tv <div class="mega__tv__vertical"></div></h4>
+                    <p class="mega__tv__p">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero at, in suscipit ab pariatur praesentium maiores vero ea accusamus officia possimus molestias, placeat sed ratione eaque ut repudiandae? Laudantium, voluptas!
+                    </p>
+                    <div class="mega__tv__container--buttons">
+                        <a data-fancybox href="https://youtu.be/peT553-2ZFk" target="_blank" class="mega__tv__button">ver</a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="mega__tv__video">
+                    <img src="img/MTV.png" alt="" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section class="container-fluid favoritos container__padding">
+        <h3 class="text-center h3__general">favoritos</h3>
+        <h4 class="text-center h4__general">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4>
+        <div class="line"></div>
+        <div class="favoritos--carrusel owl-carousel owl-theme padding__rem">
+            <div class="item mega__ofertas--item"> 
+                <a href="">
+                    <img src="https://one.cdnmega.com/images/home/bloqueo/colores-del-sureste-mexicano-291x384_5e46e7dd6294a.jpg" alt="">
+                    
+                </a>
+                <div class="slide__info">
+                    <p class="slide__info--nombre">Turquia con Troya y Bulgaria</p>       
+                </div>    
+            </div>
+            <div class="item mega__ofertas--item"> 
+                <a href="">
+                    <img src="https://one.cdnmega.com/images/home/bloqueo/colores-del-sureste-mexicano-291x384_5e46e7dd6294a.jpg" alt="">
+                    
+                </a>
+                <div class="slide__info">
+                    <p class="slide__info--nombre">Turquia con Troya y Bulgaria</p>       
+                </div>    
+            </div>
+            <div class="item mega__ofertas--item"> 
+                <a href="">
+                    <img src="https://one.cdnmega.com/images/home/bloqueo/colores-del-sureste-mexicano-291x384_5e46e7dd6294a.jpg" alt="">
+                    
+                </a>
+                <div class="slide__info">
+                    <p class="slide__info--nombre">Turquia con Troya y Bulgaria</p>       
+                </div>    
+            </div>
+            <div class="item mega__ofertas--item"> 
+                <a href="">
+                    <img src="https://one.cdnmega.com/images/home/bloqueo/colores-del-sureste-mexicano-291x384_5e46e7dd6294a.jpg" alt="">
+                    
+                </a>
+                <div class="slide__info">
+                    <p class="slide__info--nombre">Turquia con Troya y Bulgaria</p>       
+                </div>    
+            </div>
+            <div class="item mega__ofertas--item"> 
+                <a href="">
+                    <img src="https://one.cdnmega.com/images/home/bloqueo/colores-del-sureste-mexicano-291x384_5e46e7dd6294a.jpg" alt="">
+                    
+                </a>
+                <div class="slide__info">
+                    <p class="slide__info--nombre">Turquia con Troya y Bulgaria</p>       
+                </div>    
+            </div>
+            <div class="item mega__ofertas--item"> 
+                <a href="">
+                    <img src="https://one.cdnmega.com/images/home/bloqueo/colores-del-sureste-mexicano-291x384_5e46e7dd6294a.jpg" alt="">
+                    
+                </a>
+                <div class="slide__info">
+                    <p class="slide__info--nombre">Turquia con Troya y Bulgaria</p>       
+                </div>    
+            </div>
+        </div>
+    </section>
+
+    <section class="container-fluid bloqueos container__padding">
+        <h3 class="text-center h3__general">bloqueos</h3>
+        <h4 class="text-center h4__general">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4>
+        <div class="line"></div>
+        <div class="bloqueos--carrusel owl-carousel owl-theme padding__rem">
+            <div class="item mega__ofertas--item"> 
+                <a href="">
+                    <img src="https://one.cdnmega.com/images/home/bloqueo/colores-del-sureste-mexicano-291x384_5e46e7dd6294a.jpg" alt="">
+                    
+                </a>
+                <div class="slide__info">
+                    <p class="slide__info--nombre">Turquia con Troya y Bulgaria</p>       
+                </div>    
+            </div>
+            <div class="item mega__ofertas--item"> 
+                <a href="">
+                    <img src="https://one.cdnmega.com/images/home/bloqueo/colores-del-sureste-mexicano-291x384_5e46e7dd6294a.jpg" alt="">
+                    
+                </a>
+                <div class="slide__info">
+                    <p class="slide__info--nombre">Turquia con Troya y Bulgaria</p>       
+                </div>    
+            </div>
+            <div class="item mega__ofertas--item"> 
+                <a href="">
+                    <img src="https://one.cdnmega.com/images/home/bloqueo/colores-del-sureste-mexicano-291x384_5e46e7dd6294a.jpg" alt="">
+                    
+                </a>
+                <div class="slide__info">
+                    <p class="slide__info--nombre">Turquia con Troya y Bulgaria</p>       
+                </div>    
+            </div>
+            <div class="item mega__ofertas--item"> 
+                <a href="">
+                    <img src="https://one.cdnmega.com/images/home/bloqueo/colores-del-sureste-mexicano-291x384_5e46e7dd6294a.jpg" alt="">
+                    
+                </a>
+                <div class="slide__info">
+                    <p class="slide__info--nombre">Turquia con Troya y Bulgaria</p>       
+                </div>    
+            </div>
+            <div class="item mega__ofertas--item"> 
+                <a href="">
+                    <img src="https://one.cdnmega.com/images/home/bloqueo/colores-del-sureste-mexicano-291x384_5e46e7dd6294a.jpg" alt="">
+                    
+                </a>
+                <div class="slide__info">
+                    <p class="slide__info--nombre">Turquia con Troya y Bulgaria</p>       
+                </div>    
+            </div>
+            <div class="item mega__ofertas--item"> 
+                <a href="">
+                    <img src="https://one.cdnmega.com/images/home/bloqueo/colores-del-sureste-mexicano-291x384_5e46e7dd6294a.jpg" alt="">
+                    
+                </a>
+                <div class="slide__info">
+                    <p class="slide__info--nombre">Turquia con Troya y Bulgaria</p>       
+                </div>    
+            </div>
+        </div>
+    </section>
+
+    <section class="container-fluid quienes__somos container__padding">
+        <h3 class="somos__h4 text-center">¿quiénes somos?</h3>
+        <div class="padding__rem">
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="somos__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam quasi, odio odit, eaque tenetur provident voluptates id obcaecati laborum necessitatibus, doloremque commodi? Beatae veritatis officiis molestias odio exercitationem dolorem numquam?</p>
+                    <p class="somos__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam quasi, odio odit, eaque tenetur provident voluptates id obcaecati laborum necessitatibus, doloremque commodi? Beatae veritatis officiis molestias odio exercitationem dolorem numquam?</p>
+                </div>
+                <div class="col-md-6">
+                    <p class="somos__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam quasi, odio odit, eaque tenetur provident voluptates id obcaecati laborum necessitatibus, doloremque commodi? Beatae veritatis officiis molestias odio exercitationem dolorem numquam?</p>
+                    <p class="somos__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam quasi, odio odit, eaque tenetur provident voluptates id obcaecati laborum necessitatibus, doloremque commodi? Beatae veritatis officiis molestias odio exercitationem dolorem numquam?</p>
+                </div>
+                <div class="col-md-12 text-center">
+                    <a href="" class="somos__link">Continuar</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer container-fluid container__padding">
+        <div class="padding__rem footer__container">
+            <div class="row">
+                <div class="col-md-6">
+                    <a class="footer__brand menu__brand" href="#"><img src="https://mtmedia.b-cdn.net/brand/logos/logo-mega-travel-azul.svg" alt="" class="img-logo"></a>
+                    <p class="footer__agencia">
+                    Agencia de Viajes - Travel World
+                    </p>
+                    <p class="footer__direccion">    
+                    plaza milenio, Loc. 22,Av Juarez 100.
+                    </p>
+                    <p class="footer__colonia">    
+                    col. Ex Hacienda de Coscotitlan
+                    </p>
+                    <p class="footer__postal">    
+                    CP. 42080 Pachuca de Soto, Hidalgo
+                    </p>
+                    <h3 class="footer__h3">    
+                    Contacto
+                    </h3>
+                    <form class="footer__form">
+                        <div class="form-group">
+                            <input type="text" class="form-control footer__input" placeholder="Nombre">
+                          </div>
+                        <div class="form-row">
+                          <div class="form-group col-md-6">
+                            
+                            <input type="email" class="form-control footer__input" placeholder="E-mail">
+                          </div>
+                          <div class="form-group col-md-6">
+                            
+                            <input type="text" class="form-control footer__input" placeholder="Telefono / Celular">
+                          </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label class="footer__label">Mensaje</label>
+                          <textarea name="" id="" cols="10" rows="" class="form-control footer__area"></textarea>
+                           
+                        </div>
+                        
+                        <button type="submit" class="footer__btn">Enviar</button>
+
+                      </form>
+                </div>
+                <div class="col-md-6">
+                    <p class="footer__phone">
+                    55 5255 6533
+                    </p>
+                    <p class="footer__correo">
+                        <a href="" class="footer__link">    
+                    contacto@wordtravel.com.mx
+                </a>
+                    </p>    
+                    <ul class="list-inline footer__ul">
+                        <li class="list-inline-item footer__li">
+                            <a href="" class="footer__a">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item footer__li">
+                            <a href="" class="footer__a">
+                                <i class="fab fa-whatsapp"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item footer__li">
+                            <a href="" class="footer__a">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item footer__li">
+                            <a href="" class="footer__a">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <iframe class="footer__iframe" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15056.239914583468!2d-99.2896475!3d19.366555449999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2smx!4v1594154000494!5m2!1ses-419!2smx" width="431" height="258" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <section class="meca">
+        <p class="text-center meca__p">2020 all rights reserved</p>   
+    </section>
+    
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+<script>
+    $('.mega__ofertas--carrusel').owlCarousel({
+    loop:true,
+    margin:29,
+    nav:false,
+    
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:4
+        }
+    }
+});
+
+$('.ofertas__temporada--carrusel').owlCarousel({
+    loop:true,
+    margin:19,
+    nav:false,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:6
+        }
+    }
+});
+$('.carrusel__mega--carrusel').owlCarousel({
+    loop:true,
+    margin:0,
+    autoplay: true,
+    nav:true,
+    dots:false,
+    navText: ["<i class='fas fa-chevron-circle-left'></i>", "<i class='fas fa-chevron-circle-right'></i>"],
+    responsive:{
+        0:{
+            items:1,
+            nav:false
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:1
+        }
+    }
+});
+
+$('.favoritos--carrusel').owlCarousel({
+    loop:true,
+    margin:29,
+    nav:false,
+    
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:4
+        }
+    }
+});
+
+$('.bloqueos--carrusel').owlCarousel({
+    loop:true,
+    margin:29,
+    nav:false,
+    
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:4
+        }
+    }
+});
+</script>
+</body>
+</html>
