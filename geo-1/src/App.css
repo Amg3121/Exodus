@@ -1,0 +1,377 @@
+*{
+  scroll-behavior: smooth;
+}
+@font-face {
+  font-family: 'Geomanist-bold';
+  src: local('Geomanist-bold'), url('./fonts/Geomanist-Bold.eot');
+  src: local('Geomanist-bold'), url('./fonts/Geomanist-Bold.eot?#iefix') format('embedded-opentype'), url('./fonts/Geomanist-Bold.woff') format('woff'), url('./fonts/Geomanist-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal
+}
+@font-face {
+  font-family: 'Geomanist-medium';
+  src: local('Geomanist-medium'), url('./fonts/Geomanist-Medium.eot');
+  src: local('Geomanist-medium'), url('./fonts/Geomanist-Medium.eot?#iefix') format('embedded-opentype'), url('./fonts/Geomanist-Medium.woff') format('woff'), url('./fonts/Geomanist-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal
+}
+@font-face {
+  font-family: 'Geomanist-black';
+  src: local('Geomanist-black'), url('./fonts/Geomanist-Black.eot');
+  src: local('Geomanist-black'), url('./fonts/Geomanist-Black.eot?#iefix') format('embedded-opentype'), url('./fonts/Geomanist-Black.woff') format('woff'), url('./fonts/Geomanist-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal
+}
+
+@font-face {
+  font-family: 'ProximaNova-Bold';
+  src: local('Geomanist-Bold'), url('./fonts/ProximaNova-Bold.otf');
+  src: local('Geomanist-Bold'), url('./fonts/ProximaNova-Bold.otf') format('truetype');
+  
+}
+@font-face {
+  font-family: 'ProximaNova-RegularItalic';
+  src: local('Geomanist-RegularItalic'), url('./fonts/ProximaNova-RegularItalic.otf');
+  src: local('Geomanist-RegularItalic'), url('./fonts/ProximaNova-RegularItalic.otf') format('truetype');
+}
+.menu {
+  display: grid;
+  background-color: #000;
+  
+}
+#sub__menu{
+  cursor:pointer;
+}
+.navbar{
+  display: none;
+ 
+}
+.main__carousel-owl-item{
+  position: relative;
+}
+.main__carousel-owl-item-image{
+  width: 100%;
+}
+.mega__ofertas--item img{
+  width: 100%;
+}
+
+.mega__ofertas--item{
+  padding: 0px 10px;
+}
+
+.main__carousel-owl{
+  background-color: #e46879  !important;
+}
+
+.main__sections-item{
+  position: relative;
+  padding: 0px 10px;
+}
+
+.slick-slide img{
+  width: 100%;
+}
+.main__sections-mt{
+  padding: 15px 30px;
+}
+.slick-prev{
+  display: none !important;
+}
+.slick-next{
+  display: none !important;
+}
+
+.not-border{
+  border: 0px;
+}
+
+.iframe-detail{
+  border: 0px;
+}
+
+.carrusel__mega--carrusel{
+  background-color: #451316 !important;
+}
+.megatraveler__revista {
+  padding: 40px 35px;
+}
+.megatraveler__button{
+  margin: 5px;
+}
+.footer__iframe{
+  border: 0;
+}
+
+.about-carrousel__info{
+  width: 100%; height: 300px; margin:30px auto;
+}
+.menu__nav-link{
+  padding: 18px 0px 18px 0px;
+}
+.menu__responsivo{
+  background-color: #000!important;
+}
+.menu__span{
+  top: 0px;
+}
+.show{
+  display: block;
+}
+
+.megatraveler__button {
+  background-color: #e47510;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  text-transform: uppercase;
+  width: 40%;
+  padding: 15px 0px 20px 0px;
+  font-family: 'Geomanist-black';
+  transition: all 0.3s ease 0s;
+  display: inline-block;
+}
+.megatraveler__title--image{
+  max-width: 100%;
+}
+.megatraveler__image--newsletter{
+  max-width: 100%;
+}
+
+.contactar{
+  padding: 0px;
+}
+
+.contactanos-ul{
+  margin: 0px;
+}
+.contactar-parrafo{
+  margin: 0px;
+}
+.menu__nav-link{
+  color: #fff !important;
+}
+
+.carousel-best-sellers .slick-slide{
+  padding: 0px 5px;
+  position: relative;
+}
+
+.carousel-best-sellers .slick-slide img{
+  width: 100%;
+}
+
+.carousel-scheduled-departures .slick-slide{
+  padding: 0px 5px;
+  position: relative;
+}
+
+.carousel-scheduled-departures .slick-slide img{
+  width: 100%;
+}
+
+
+.carousel-favorites .slick-slide{
+  padding: 0px 5px;
+  position: relative;
+}
+
+.carousel-favorites .slick-slide img{
+  width: 100%;
+}
+
+
+.carousel-temporada .slick-slide{
+  padding: 0px 5px;
+  position: relative;
+}
+
+.carousel-temporada .slick-slide img{
+  width: 100%;
+}
+.carousel-scheduled-departures__mt{
+  padding: 10px 20px;
+}
+.carousel-favorites__mt{
+  padding: 10px 20px;
+}
+.about-carrousel__info{
+  display: inline;
+}
+.map{
+  border: 0;
+}
+.about-carrousel {
+  padding: 40px 40px 0px 40px;
+}
+.contactanos-a:hover{
+  color:#000;
+}
+.footer-redes-a{
+  margin:5px;
+}
+.h1-title {
+ font-family: Geomanist-medium;
+  padding-top: 40px;
+   margin-bottom: 20px;
+  position: absolute;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 25px;
+
+}
+.h1-title-section {
+  font-family: Geomanist-medium;
+   padding-top: 40px;
+    margin-bottom: 20px;
+   display: inline-block;
+   width: 100%;
+   text-align: center;
+   text-transform: uppercase;
+   color: #fff;
+   font-size: 35px;
+ }
+
+.h2-title {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 25px;
+  font-family: 'Geomanist-black';
+    padding: 10px 0;
+}
+.carousel-main__item{
+  position: relative;
+}
+
+.section-carousel-main {
+  background-color: #000;
+}
+.slide_movil {
+  display: none!important;
+}
+@media only screen and (max-width: 967px){
+  .contactar-parrafo{
+    padding-left: 5px;
+   }
+  
+  }
+  
+@media only screen and (max-width: 880px){
+.about-carrousel {
+     display:block; 
+}
+.h1-title {
+  padding-top: 20px;
+ 
+ }
+
+}
+@media only screen and (max-width: 650px) {
+  .about {
+    grid-template-columns: 1fr;
+  }
+  
+  .container-contacto{
+    grid-template-columns: 1fr;
+  }
+  .content-video{
+    padding: 0px 40px;
+    margin-bottom: 150px;
+  }
+  .h1-title{
+    padding-top: 10px;
+    font-size: 15px;
+  }
+  .carousel-main__price{
+    font-size: 30px;
+  }
+  .megatraveler {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-bottom: 100px;
+}
+.contactanos-a {
+  font-size: 12px;
+}
+.contactanos-img {
+  max-width: 50%;}
+
+.contactar-parrafo{
+  font-size: 11px;
+ padding-left: 5px;
+}
+
+.formulario-form {
+  padding-right: 0px;
+  margin-bottom: 40px;
+}
+
+}
+
+
+.exchange-rate__link:hover{
+  color:#fff;
+}
+
+
+.menu--brasil {
+  background-color: #02557f!important;
+}
+
+
+.social--brasil {
+  background-color: rgba(72,160,54,.82);
+}
+.megatraveler__text--brasil{
+  
+    color: #fff!important;
+  
+
+}
+.season-offers{
+
+}
+.magazine__button--brasil{
+  background-color: #fecf34 !important;
+  color:#000 !important;
+}
+.magazine__button--brasil span{
+  
+  color:#000 !important;
+}
+
+.formulario-button--brasil{
+  background-color: #fecf34 !important;
+  color:#000 !important;
+}
+
+@media only screen and (max-width: 650px) {
+  .menu {
+    display: none!important;
+   
+  }
+  .navbar{
+    display:block!important;
+    background-color: #fff;
+  }
+
+}
+
+@media only screen and (max-width: 499px) {
+  .slide_movil {
+    display: block!important;
+}
+.slide_desktop{
+  display: none!important;
+}
+
+.logo-img{
+max-width: 100%;
+}
+
+
+
+}
