@@ -1,0 +1,130 @@
+*{
+    scroll-behavior: smooth;
+}
+.width-img{
+    width: 100%;
+    height: auto;
+}
+.slide .slick-prev{
+    display: none !important;
+}
+.slide .slick-next{
+    display: none !important;
+}
+ .slick-prev{
+    display: none !important;
+}
+ .slick-next{
+    display: none !important;
+}
+.top-ten .slick-slide{
+    padding: 0px 10px;
+}
+.offers .slick-slide{
+    padding: 0px 10px;
+}
+.locks .slick-slide{
+    padding: 0px 10px;
+}
+.favoritos .slick-slide{
+    padding: 0px 10px;
+}
+.mas-vendidos .slick-slide{
+    padding: 0px 10px;
+}
+
+.mas-vendidos .slick-slide .mega__ofertas--item {
+    position: relative;
+}
+.mas-vendidos .slick-slide .mega__ofertas--item img{
+    width: 100%;
+}
+
+
+.carrusel .slick-slide{
+    
+}
+
+.carrusel .slick-slide .item-info {
+    position: relative;
+}
+.carrusel .slick-slide .item-info img{
+    width: 100%;
+}
+
+.favoritos .slick-slide{
+    padding: 0px 10px;
+}
+
+.favoritos .slick-slide .item-slide-content {
+    position: relative;
+}
+.favoritos .slick-slide .item-slide-content img{
+    width: 100%;
+}
+
+
+.programadas .slick-slide{
+    padding: 0px 10px;
+}
+
+.programadas .slick-slide .item-slide-content {
+    position: relative;
+}
+.programadas .slick-slide .item-slide-content img{
+    width: 100%;
+}
+
+.temporada .slick-slide{
+    padding: 0px 10px;
+}
+
+.temporada .slick-slide .item-slide-content {
+    position: relative;
+}
+.temporada .slick-slide .item-slide-content img{
+    width: 100%;
+}
+
+
+
+
+.maps{
+    border: 0;
+    padding:0px !important!
+}
+.iframe-detail{
+    border: 0;
+}
+.back-promo{
+    background-image: url('https://exodus.b-cdn.net/exodus/city/01/img/ofertas.jpg') !important;   
+}
+.fa-whatsapp{
+    font-size: 30px;
+    color: #7fc775;
+}
+.fa-facebook{
+    font-size: 30px;
+    color: #7fc775;
+}
+.fa-twitter{
+    font-size: 30px;
+    color: #7fc775;
+}
+.fa-instagram{
+    font-size: 30px;
+    color: #7fc775;
+}
+.fa-facebook-messenger{
+    font-size: 30px;
+    color: #7fc775;
+}
+@media only screen and (max-width: 650px) {
+    .slide_movil {
+      display: block!important;
+  }
+  .slide_desktop{
+    display: none!important;
+  }
+  
+  }
