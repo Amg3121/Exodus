@@ -1,0 +1,100 @@
+*{
+
+  scroll-behavior: smooth;
+}
+.item-info{
+position:  relative;
+}
+
+.button-descargar{
+  margin: 5px;
+}
+
+.slide .slick-prev{
+  margin: 0 0 0 .7em;
+  left: 60px;
+  display: inline-block;
+  position: absolute;
+  top: 40%;
+  color: #ffffff !important;
+  outline: none !important;
+  background: transparent !important;
+  z-index: 100;
+}
+.slide .slick-prev::before{
+  content: url('https://www.megatravel.com.mx/img/elements/mega-ofertas/carrusel/arrow-izq.png') !important;
+}
+.slide .slick-next{
+  margin: 0 .7em 0 0;
+  right: 60px;
+  display: inline-block;
+  position: absolute;
+  top: 40%;
+  
+  color: #ffffff !important;
+  outline: none !important;
+  background: transparent !important;
+}
+.slide .slick-next::before{
+  content: url('https://www.megatravel.com.mx/img/elements/mega-ofertas/carrusel/arrow-der.png') !important;
+}
+.slick_item {
+  padding: 5px 15px;
+}
+.vendidos .item-slide-content{
+padding: 10px;
+
+}
+
+.vendidos .slick-slide img{
+  width: 100%;
+}
+.maps{
+  border: 0;
+}
+.main-text:hover{
+  color: #000 !important; 
+}
+
+#favoritos .slick-slider .slick-slide{
+  padding: 5px;
+}
+
+#temporada .slick-slider .slick-slide{
+  padding: 5px;
+}
+
+#ofertas .slick-slider .slick-slide{
+  padding: 5px;
+}
+
+#bloqueos .slick-slider .slick-slide{
+  padding: 5px;
+}
+
+#exampleModal6 .slick-slider .slick-slide{
+  padding: 5px;
+}
+
+.img-responsive{
+  width: 100%;
+}
+
+.iframe-detail{
+  border: 0;
+}
+.no-padding{
+  padding: 0px !important;
+}
+
+@media only screen and (max-width: 650px) {
+  .slide_movil {
+    display: block!important;
+    width: 100%;
+    height: auto;
+}
+.slide_desktop{
+  display: none!important;
+}
+
+}
