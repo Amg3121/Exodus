@@ -1,0 +1,224 @@
+*{
+    scroll-behavior: smooth;
+}
+.navbar-brand{
+    width: 30%;
+}
+.logo-img{
+    max-width: 50%;
+}
+.width-img{
+    width: 100%;
+    height: auto;
+}
+.slide .slick-prev{
+    display: none !important;
+}
+.slide .slick-next{
+    display: none !important;
+}
+ .top-ten .item{
+    padding:  10px;
+    margin-bottom: 0;
+    border: none;
+    border-radius: 24px !important;
+    
+    background-color: #fff !important;
+
+}
+.top-ten .slick-slide{
+    padding:  10px;
+}
+.main__sections-item-link{
+    border-radius: 24px;
+    display: block;
+    overflow: hidden;
+}
+.thumb{
+    padding: 0px !important;
+    
+}
+.img-slide{
+    width: 100%;
+}
+.st-list-service--bg .related__item{
+  
+    margin-bottom: 0;
+    border: none;
+    border-radius: 0px;
+    -webkit-box-shadow: none;
+    box-shadow:none;
+    background-color: transparent;
+    display: block;
+}
+
+
+.maps{
+    border: 0;
+    padding:0px !important!
+}
+.iframe-detail{
+    border: 0;
+}
+.back-promo{
+    background-image: url('https://exodus.b-cdn.net/exodus/city/01/img/ofertas.jpg') !important;   
+}
+
+
+.c-main{
+    font-size: 20px !important;
+    color: var(--main-color, #123a32);
+    -webkit-transition: all 0.35s;
+    transition: all 0.35s;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-style: normal;
+    line-height: 26px;
+    letter-spacing: normal;
+}
+.c-main:hover{
+    
+        color: var(--main-color, #123a32);
+        text-decoration: none;
+}
+.lh1em{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 0px !important;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: var(--main-color, #123a32);
+    border: none !important;
+}
+.st-btn--book-link{
+    font-size: 14px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.83;
+    letter-spacing: 1px;
+    color: #ffffff;
+    padding: 14px 24px;
+    background-color: #ffa600;
+    border-radius: 40px;
+    -webkit-border-radius: 24px;
+    -moz-border-radius: 24px;
+    position: relative;
+    display: inline-block;
+    z-index: 20;
+    -webkit-box-shadow: 0 5px 0 #ae7100;
+    box-shadow: 0 5px 0 #ae7100;
+    text-decoration: none;
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    position: relative;
+}
+.st-btn--book-link:hover{
+    color: #ffffff;
+    text-decoration: none;
+}
+.offers .slick-slide{
+    padding: 10px;
+}
+.img-slide5{
+    width: 100%;
+}
+.button-descargar {
+    margin: 5px;
+}
+.button-descargar:hover {
+    text-decoration: none;
+    color: #fff;
+    background-color: #000;
+}
+.div1{
+    position: relative;
+}
+.locks .slick-slide {
+    padding: 10px;
+}
+.img-locks{
+    width: 100%;
+}
+.div2{
+    position: relative;
+}
+.icon-footer{
+    color: #000 !important;
+}
+.section1{
+    padding: 3rem 0;
+  /*  min-height: 356px;
+    background-position: center;*/
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('https://shinetheme.com/travelerdata/solotour/wp-content/uploads/2020/04/Group-232.png') !important;
+}
+.slide-desde{
+    font-size: 40px !important;
+}
+.slide-span{
+    font-size: 30px !important;
+}
+.p2{
+
+}
+.p3{
+
+}
+.p4{
+
+}
+.span3{
+    color: #123a32;
+    font-size: 18px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+}
+.span2{
+    color: #ec927e;
+    font-size: 18px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+}
+.span1{
+    color: #999999;
+    font-size: 18px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+}
+.seleccion-viajes:before{
+
+}
+.sociales-redes a{
+    font-size: 37px;
+}
+.fa-facebook {
+    font-size: 35px;
+}
+.fa-twitter{
+    font-size: 35px;
+}
+.fa-instagram{
+    font-size: 35px;
+}
+.fa-whatsapp{
+    font-size: 35px;
+}
+
+.leermas{
+    cursor:pointer;
+}
