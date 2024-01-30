@@ -1,0 +1,48 @@
+*{
+    scroll-behavior: smooth;
+}
+.width-img{
+    width: 100%;
+    height: auto;
+}
+.slide .slick-prev{
+    display: none !important;
+}
+.slide .slick-next{
+    display: none !important;
+}
+.top-ten .slick-slide{
+    padding: 0px 10px;
+}
+.offers .slick-slide{
+    padding: 0px 10px;
+}
+.locks .slick-slide{
+    padding: 0px 10px;
+}
+.favoritos .slick-slide{
+    padding: 0px 10px;
+}
+.maps{
+    border: 0;
+    padding:0px !important!
+}
+.iframe-detail{
+    border: 0;
+}
+.back-promo{
+    background-image: url('https://exodus.b-cdn.net/exodus/city/01/img/ofertas.jpg') !important;   
+}
+.slide_movil {
+    display: none!important;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .slide_movil {
+      display: block!important;
+  }
+  .slide_desktop{
+    display: none!important;
+  }
+  
+  }
