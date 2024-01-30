@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+
+    <meta name="Description" content="Vivir Viajando, Agencia de viajes en Toluca, Estado de México" />
+<meta name="Keywords" content="Vivir Viajando, viaja por el mundo con Vivir Viajando, paquetes de viajes Vivir Viajando, ofertas de viajes Vivir Viajando, viajes saliendo de México, viajes por Medio Oriente, Viajes por Asia, viajes a Estados Unidos, Viajes a Canadá">
+<!-- CANONICAL -->
+
+    <link rel="canonical" href="https://www.vivirviajando.exodus.mx/">
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://exodus.b-cdn.net/exodus/tourism/01/css/styles.min.css">
+    <script src="https://kit.fontawesome.com/348253d22e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    
+
+    <title>Vivir Viajando. Agencia de viajes en Toluca, Estado de México</title>
+
+
+  </head>
+  <body>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-WG9QDR8KJC"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-WG9QDR8KJC');
+    </script>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <script src="https://exodus.b-cdn.net/exodus/tourism/01/js/jquery-3.5.1.min.js"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <script src='https://www.google.com/recaptcha/api.js?render=6LfaEykbAAAAAO8ZdP5YdOdl579LozQANjfigdXX'> 
+    </script>
+    <script>
+    grecaptcha.ready(function() {
+    grecaptcha.execute('6LfaEykbAAAAAO8ZdP5YdOdl579LozQANjfigdXX', {action: 'formulario'})
+    .then(function(token) {
+    var recaptchaResponse = document.getElementById('recaptchaResponse');
+    recaptchaResponse.value = token;
+    });});
+    </script>
+    <script>
+      window.addEventListener("scroll", function(){
+    
+      var back = document.querySelector(".navbar");
+      var somos = document.querySelector(".somos");
+      var destinos = document.querySelector(".destinos");
+      var contacto = document.querySelector(".contacto");
+      var promociones = document.querySelector(".promociones");
+      // search = document.querySelector(".search");
+      var icon = document.querySelector(".navbar-toggler");
+      
+      somos.classList.toggle("nav_link_black", window.scrollY > 0);
+      destinos.classList.toggle("nav_link_black", window.scrollY > 0);
+      contacto.classList.toggle("nav_link_black", window.scrollY > 0);
+      promociones.classList.toggle("nav_link_black", window.scrollY > 0);
+      back.classList.toggle("back-nav", window.scrollY > 0);
+      //search.classList.toggle("back-search", window.scrollY > 0);
+      icon.classList.toggle("navbar-toggler-menu", window.scrollY > 0);
+    
+});
+    </script>
+  </body>
+</html>
