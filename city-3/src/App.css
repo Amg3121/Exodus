@@ -1,62 +1,57 @@
-*{
+* {
     scroll-behavior: smooth;
 }
-.hover{
+.hover {
     background: red;
 }
 .hover__container {
     background: red;
     padding: 1rem 0;
-  }
-  
-  .hover__text {
+}
+.hover__text {
     color: black;
     font-weight: 400;
-  }
-
-
-.width-img{
+}
+.width-img {
     width: 100%;
     height: auto;
 }
-.slide .slick-prev{
+.slide .slick-prev {
     display: none !important;
 }
-.slide .slick-next{
+.slide .slick-next {
     display: none !important;
 }
-.top-ten .slick-slide{
+.top-ten .slick-slide {
     padding: 0px 10px;
 }
-.offers .slick-slide{
+.offers .slick-slide {
     padding: 0px 10px;
 }
-.locks .slick-slide{
+.locks .slick-slide {
     padding: 0px 10px;
 }
-.favoritos .slick-slide{
+.favoritos .slick-slide {
     padding: 0px 10px;
 }
-.maps{
+.maps {
     border: 0;
-    padding:0px !important;
+    padding: 0px !important;
 }
-.iframe-detail{
+.iframe-detail {
     border: 0;
 }
-.back-promo{
-    background-image: url('https://exodus.b-cdn.net/exodus/city/01/img/ofertas.jpg') !important;   
+.back-promo {
+    background-image: url('https://exodus.b-cdn.net/exodus/city/01/img/ofertas.jpg') !important;
 }
 .slide_movil {
-    display: none!important;
-  }
-  
-  @media only screen and (max-width: 600px) {
+    display: none !important;
+}
+@media only screen and (max-width: 600px) {
     .slide_movil {
-      display: block!important;
-  }
-  .slide_desktop{
-    display: none!important;
-  }
-  
-  }
+        display: block !important;
+    }
+    .slide_desktop {
+        display: none !important;
+    }
+}
