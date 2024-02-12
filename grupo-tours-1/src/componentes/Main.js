@@ -396,7 +396,7 @@ axios.get('https://www.megatravel.com.mx/developers/cafe-carousel/megatv').then(
 										<div className="right">
 	
 														<span className=" price--tour">
-															<span className="text-lg lh1em item "> 669 USD</span>                                                    </span>
+															<span className="text-lg lh1em item "> {c2.price_from} USD</span>                                                    </span>
 										</div>
 										<div className="st-btn--book">
 											<a className="st-btn--book-link" href={'detail/'+c2.mt+'/'+c2.name}>VER PAQUETES</a>
