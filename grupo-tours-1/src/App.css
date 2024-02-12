@@ -1,71 +1,63 @@
-*{
+* {
     scroll-behavior: smooth;
 }
-.navbar-brand{
+.navbar-brand {
     width: 30%;
 }
-.logo-img{
+.logo-img {
     max-width: 50%;
 }
-.width-img{
+.width-img {
     width: 100%;
     height: auto;
 }
-.slide .slick-prev{
+.slide .slick-prev {
     display: none !important;
 }
-.slide .slick-next{
+.slide .slick-next {
     display: none !important;
 }
- .top-ten .item{
-    padding:  10px;
+.top-ten .item {
+    padding: 10px;
     margin-bottom: 0;
     border: none;
     border-radius: 24px !important;
-    
     background-color: #fff !important;
-
 }
-.top-ten .slick-slide{
-    padding:  10px;
+.top-ten .slick-slide {
+    padding: 10px;
 }
-.main__sections-item-link{
+.main__sections-item-link {
     border-radius: 24px;
     display: block;
     overflow: hidden;
 }
-.thumb{
+.thumb {
     padding: 0px !important;
-    
 }
-.img-slide{
+.img-slide {
     width: 100%;
 }
-.st-list-service--bg .related__item{
-  
+.st-list-service--bg .related__item {
     margin-bottom: 0;
     border: none;
     border-radius: 0px;
     -webkit-box-shadow: none;
-    box-shadow:none;
+    box-shadow: none;
     background-color: transparent;
     display: block;
 }
-
-
-.maps{
+.maps {
     border: 0;
-    padding:0px !important!
+    padding: 0px !important;
 }
-.iframe-detail{
+.iframe-detail {
     border: 0;
 }
-.back-promo{
-    background-image: url('https://exodus.b-cdn.net/exodus/city/01/img/ofertas.jpg') !important;   
+.back-promo {
+    background-image: url('https://exodus.b-cdn.net/exodus/city/01/img/ofertas.jpg') !important;
 }
-
-
-.c-main{
+.c-main {
     font-size: 20px !important;
     color: var(--main-color, #123a32);
     -webkit-transition: all 0.35s;
@@ -76,12 +68,11 @@
     line-height: 26px;
     letter-spacing: normal;
 }
-.c-main:hover{
-    
-        color: var(--main-color, #123a32);
-        text-decoration: none;
+.c-main:hover {
+    color: var(--main-color, #123a32);
+    text-decoration: none;
 }
-.lh1em{
+.lh1em {
     font-size: 24px;
     font-weight: 600;
     margin-bottom: 0px !important;
@@ -92,7 +83,7 @@
     color: var(--main-color, #123a32);
     border: none !important;
 }
-.st-btn--book-link{
+.st-btn--book-link {
     font-size: 14px;
     font-weight: 600;
     font-stretch: normal;
@@ -116,14 +107,14 @@
     -moz-transition: all 0.3s ease-out;
     position: relative;
 }
-.st-btn--book-link:hover{
+.st-btn--book-link:hover {
     color: #ffffff;
     text-decoration: none;
 }
-.offers .slick-slide{
+.offers .slick-slide {
     padding: 10px;
 }
-.img-slide5{
+.img-slide5 {
     width: 100%;
 }
 .button-descargar {
@@ -134,46 +125,40 @@
     color: #fff;
     background-color: #000;
 }
-.div1{
+.div1 {
     position: relative;
 }
 .locks .slick-slide {
     padding: 10px;
 }
-.img-locks{
+.img-locks {
     width: 100%;
 }
-.div2{
+.div2 {
     position: relative;
 }
-.icon-footer{
+.icon-footer {
     color: #000 !important;
 }
-.section1{
+.section1 {
     padding: 3rem 0;
-  /*  min-height: 356px;
+    /*  min-height: 356px;
     background-position: center;*/
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url('https://shinetheme.com/travelerdata/solotour/wp-content/uploads/2020/04/Group-232.png') !important;
 }
-.slide-desde{
+.slide-desde {
     font-size: 40px !important;
 }
-.slide-span{
+.slide-span {
     font-size: 30px !important;
 }
-.p2{
-
-}
-.p3{
-
-}
-.p4{
-
-}
-.span3{
+.p2 {}
+.p3 {}
+.p4 {}
+.span3 {
     color: #123a32;
     font-size: 18px;
     font-weight: 600;
@@ -182,7 +167,7 @@
     line-height: 1.5;
     letter-spacing: normal;
 }
-.span2{
+.span2 {
     color: #ec927e;
     font-size: 18px;
     font-weight: 600;
@@ -191,7 +176,7 @@
     line-height: 1.5;
     letter-spacing: normal;
 }
-.span1{
+.span1 {
     color: #999999;
     font-size: 18px;
     font-weight: 600;
@@ -200,25 +185,22 @@
     line-height: 1.5;
     letter-spacing: normal;
 }
-.seleccion-viajes:before{
-
-}
-.sociales-redes a{
+.seleccion-viajes:before {}
+.sociales-redes a {
     font-size: 37px;
 }
 .fa-facebook {
     font-size: 35px;
 }
-.fa-twitter{
+.fa-twitter {
     font-size: 35px;
 }
-.fa-instagram{
+.fa-instagram {
     font-size: 35px;
 }
-.fa-whatsapp{
+.fa-whatsapp {
     font-size: 35px;
 }
-
-.leermas{
-    cursor:pointer;
+.leermas {
+    cursor: pointer;
 }
