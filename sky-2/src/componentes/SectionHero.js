@@ -3,13 +3,10 @@
  * Developed by David Marin
  */
 import React from 'react'
-
-function SectionHero({user}) {
+function SectionHero({ user }) {
     return (
         <>
-          
         </>
     )
 }
-
 export default SectionHero

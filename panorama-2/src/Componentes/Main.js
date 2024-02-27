@@ -306,9 +306,9 @@ function Main({ user }) {
 					<h1 class="title__h1"> {user.name_agency} </h1>
 					{/** <p class="text__title"> en {user.state_name}</p>*/}
 					<p class="text__phone"> Tel: <a href={'tel:' + user.phone} target='_blank' className="header__a"> {user.phone} </a><li className="list-inline-item footer__li">
-						/  <a href={'https://api.whatsapp.com/send?phone=52' + user.whatsapp + '&amp;text=' + user.name_agency + ''} target="_blank" className="header__a">
+					{/**	/  <a href={'https://api.whatsapp.com/send?phone=52' + user.whatsapp + '&amp;text=' + user.name_agency + ''} target="_blank" className="header__a">
 							<i className="fab fa-whatsapp"></i>
-						</a>
+						</a>*/}
 					</li></p>
 					<a href="#contacto" class="link__title blue blue__button"> Contacto </a>
 				</div>
