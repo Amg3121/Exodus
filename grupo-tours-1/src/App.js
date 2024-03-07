@@ -55,7 +55,7 @@ function Detail() {
 function App() {
   const [datos, setUser] = useState([]);
   useEffect(() => {
-    axios.get('https://2020.exodus.mx/api/agency/38').then(res => {
+    axios.get('https://2020.exodus.mx/api/agency/671').then(res => {
       const datos = res.data;
       setUser(datos);
     });
