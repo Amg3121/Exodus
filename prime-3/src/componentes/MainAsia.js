@@ -1,5 +1,4 @@
 import React from 'react'
-
 function MainAsia() {
     return (
         <>
@@ -29,5 +28,4 @@ function MainAsia() {
         </>
     )
 }
-
 export default MainAsia

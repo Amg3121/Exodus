@@ -6,7 +6,7 @@ function Footer({ user }) {
                 <div className="container-contacto">
                     <div className="contactanos">
                         <h4 className="title-contactanos">Contáctanos</h4>
-                       {/*  <p className="parrafo-direccion"><span className="h3-title">Telefonos: </span>
+                        {/*  <p className="parrafo-direccion"><span className="h3-title">Telefonos: </span>
                             <a href={'tel:' + user.phone} className="parrafo-direccion"> {user.phone}</a>, 
                             <a href={'tel:' + user.other_phone} className="parrafo-direccion"> {user.other_phone}</a>,
                             <a href='tel:4426904173' className="parrafo-direccion"> 4426904173</a>
@@ -47,10 +47,10 @@ function Footer({ user }) {
                 <div className="container-footer">
                     <div className="footer-logo">
                         <ul className="footer-logo-ul">
-                            <li className="footer-logo-li"><a href="" className="footer-logo-a">
-                                <img className="footer-logo-img" src={user.logo} alt="" /></a></li>
+                            <li className="footer-logo-li">{/*<a href="" className="footer-logo-a">
+                                 <img className="footer-logo-img" src={user.logo} alt="" /></a>*/}</li>
                             <li className="footer-logo-li">
-                            <p className="footer-logo-p"> {user.address}, {user.outdoor_number} {user.suburb} CP. {user.postal_code} {user.city_name}, {user.state_name}</p>
+                                <p className="footer-logo-p"> {user.address}, {user.outdoor_number} {user.suburb} CP. {user.postal_code} {user.city_name}, {user.state_name}</p>
                                 {/*<p className="footer-logo-p"><span className="h4-title">MATRIZ:</span> {user.address}, {user.outdoor_number} {user.suburb} CP. {user.postal_code} {user.city_name}, {user.state_name}</p>
                                 <p className="footer-logo-p"><span className="h4-title">sucursal:</span> Camino Real de Carretas 350-C, Col: Milenio III CP. 76060, {user.city_name}, {user.state_name}</p>*/}
                             </li>

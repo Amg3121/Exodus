@@ -61,7 +61,7 @@ function App() {
   const [datos, setUser] = useState([]);
     
     useEffect(() => {
-    axios.get('https://2020.exodus.mx/api/agency/471').then(res => {
+    axios.get('https://2020.exodus.mx/api/agency/279').then(res => {
     const datos = res.data;
     
     setUser(datos);    

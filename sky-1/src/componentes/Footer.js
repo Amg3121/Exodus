@@ -14,7 +14,11 @@ function Footer({ user }) {
 								<section>
 									<div className="container">
 										<h4 className="title-section-black text-left">Contacto</h4>
+										
+										
+										
 										<hr className="divider-contacto color-azul-line" />
+										
 										<form method="post" action="https://www.scriptsexodus.exodus.mx/send-template.php">
 											<div className="form-row">
 												<div className="form-group col-md-6">
@@ -47,6 +51,11 @@ function Footer({ user }) {
 							<div className="col-md-6 ">
 								<div className="row no-gutters p-0">
 									<div className="col-md-6 margin-top-contacto padding-sociales">
+										<div className="container-link-contacto">
+											<h6 className="link-contacto">
+												Laura Vazquez Cabrera
+											</h6>
+										</div>
 										<div className="container-link-contacto">
 											<h6 className="link-contacto">
 												Telefono
